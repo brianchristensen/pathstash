@@ -4,10 +4,10 @@
 (function () {
     'use strict';
 
-    var mapList = angular.module('waypoint.mapList');
+    var mapList = angular.module('pathstash.paths');
 
     mapList.controller('mapListController', ['$scope', function ($scope) {
-        $scope.title = "This is a test controller title";
+        $scope.title = "This is a test controller title (maplist)";
     }]);
 
 })();

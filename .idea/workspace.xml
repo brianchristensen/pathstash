@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73a2c3f2-9f88-4cfe-acd5-7cddbca155de" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/waypoint_mobile_client/www/js/app.module.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/waypoint_mobile_client/www/js/app.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waypoint_mobile_client/www/lib/ionic/js/angular/angular.js" afterPath="$PROJECT_DIR$/waypoint_mobile_client/www/lib/ionic/js/angular/angular.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waypoint_mobile_client/www/index.html" afterPath="$PROJECT_DIR$/waypoint_mobile_client/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waypoint_mobile_client/www/lib/ionic/js/ionic.bundle.js" afterPath="$PROJECT_DIR$/waypoint_mobile_client/www/lib/ionic/js/ionic.bundle.js" />
+      <change type="MOVED" beforePath="$USER_HOME$/projects/waypoint/.idea/waypoint.iml" afterPath="$USER_HOME$/projects/pathstash/.idea/pathstash.iml" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/projects/pathstash/.idea/.name" afterPath="$USER_HOME$/projects/pathstash/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/projects/pathstash/README.md" afterPath="$USER_HOME$/projects/pathstash/README.md" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/index.html" afterPath="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/index.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/projects/pathstash/.idea/workspace.xml" afterPath="$USER_HOME$/projects/pathstash/.idea/workspace.xml" />
     </list>
     <ignored path="waypoint.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,11 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mapList.controller.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/waypoint_mobile_client/www/js/mapList/mapList.controller.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25027204">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state vertical-scroll-proportion="-15.066667">
+              <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/map/map.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
               <folding>
                 <element signature="e#0#39#0" expanded="false" />
               </folding>
@@ -39,12 +49,92 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mapList.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/waypoint_mobile_client/www/js/mapList/mapList.html">
+      <file leaf-file-name="app.module.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/app.module.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="paths.module.js" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/paths/paths.module.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="paths.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/paths/paths.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-2.3">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="paths.controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/paths/paths.controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="paths.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/paths/paths.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/core/core.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+              <folding>
+                <element signature="e#39#78#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core.module.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/core/core.module.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map.controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/map/map.controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,28 +144,40 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Html5" />
         <option value="JavaScript File" />
+        <option value="Html5" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/projects/pathstash" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/waypoint_mobile_client/www/js/mapList/mapList.tmpl.html" />
-        <option value="$PROJECT_DIR$/waypoint_mobile_client/www/js/app.js" />
-        <option value="$PROJECT_DIR$/waypoint_mobile_client/www/js/mapList/mapListModule.js" />
-        <option value="$PROJECT_DIR$/waypoint_mobile_client/www/js/mapList/mapListController.js" />
-        <option value="$PROJECT_DIR$/waypoint_mobile_client/www/js/mapList/mapList.html" />
-        <option value="$PROJECT_DIR$/waypoint_mobile_client/www/js/mapList/mapList.controller.js" />
-        <option value="$PROJECT_DIR$/waypoint_mobile_client/www/js/mapList/mapList.config.js" />
-        <option value="$PROJECT_DIR$/waypoint_mobile_client/www/js/core/core.config.js" />
-        <option value="$PROJECT_DIR$/waypoint_mobile_client/www/js/core/core.module.js" />
-        <option value="$PROJECT_DIR$/waypoint_mobile_client/www/js/app.module.js" />
-        <option value="$PROJECT_DIR$/waypoint_mobile_client/www/index.html" />
+        <option value="$USER_HOME$/projects/waypoint/waypoint_mobile_client/www/js/mapList/mapList.tmpl.html" />
+        <option value="$USER_HOME$/projects/waypoint/waypoint_mobile_client/www/js/app.js" />
+        <option value="$USER_HOME$/projects/waypoint/waypoint_mobile_client/www/js/mapList/mapListModule.js" />
+        <option value="$USER_HOME$/projects/waypoint/waypoint_mobile_client/www/js/mapList/mapListController.js" />
+        <option value="$USER_HOME$/projects/waypoint/waypoint_mobile_client/www/js/mapList/mapList.html" />
+        <option value="$USER_HOME$/projects/waypoint/waypoint_mobile_client/www/js/mapList/mapList.controller.js" />
+        <option value="$USER_HOME$/projects/waypoint/waypoint_mobile_client/www/js/mapList/mapList.config.js" />
+        <option value="$USER_HOME$/projects/waypoint/waypoint_mobile_client/www/js/core/core.config.js" />
+        <option value="$USER_HOME$/projects/waypoint/waypoint_mobile_client/www/js/core/core.module.js" />
+        <option value="$USER_HOME$/projects/waypoint/waypoint_mobile_client/www/js/app.module.js" />
+        <option value="$USER_HOME$/projects/waypoint/waypoint_mobile_client/www/index.html" />
+        <option value="$USER_HOME$/projects/waypoint/waypoint_mobile_client/www/js/map/map.controller.js" />
+        <option value="$USER_HOME$/projects/waypoint/waypoint_mobile_client/www/js/map/map.html" />
+        <option value="$USER_HOME$/projects/waypoint/waypoint_mobile_client/www/js/map/map.module.js" />
+        <option value="$USER_HOME$/projects/waypoint/README.md" />
+        <option value="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/map/map.controller.js" />
+        <option value="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/mapList/mapList.controller.js" />
+        <option value="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/mapList/mapList.html" />
+        <option value="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/map/map.html" />
+        <option value="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/mapList/mapList.config.js" />
+        <option value="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/map/map.config.js" />
+        <option value="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/index.html" />
+        <option value="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/paths/paths.config.js" />
       </list>
     </option>
   </component>
@@ -108,7 +210,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -136,45 +238,39 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="waypoint" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="waypoint" />
+              <option name="myItemId" value="pathstash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="waypoint" />
+              <option name="myItemId" value="pathstash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="waypoint" />
+              <option name="myItemId" value="pathstash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="waypoint" />
+              <option name="myItemId" value="pathstash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="waypoint_mobile_client" />
+              <option name="myItemId" value="pathstash_mobile_client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="waypoint" />
+              <option name="myItemId" value="pathstash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="waypoint" />
+              <option name="myItemId" value="pathstash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="waypoint_mobile_client" />
+              <option name="myItemId" value="pathstash_mobile_client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -184,15 +280,15 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="waypoint" />
+              <option name="myItemId" value="pathstash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="waypoint" />
+              <option name="myItemId" value="pathstash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="waypoint_mobile_client" />
+              <option name="myItemId" value="pathstash_mobile_client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -206,15 +302,15 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="waypoint" />
+              <option name="myItemId" value="pathstash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="waypoint" />
+              <option name="myItemId" value="pathstash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="waypoint_mobile_client" />
+              <option name="myItemId" value="pathstash_mobile_client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -226,21 +322,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mapList" />
+              <option name="myItemId" value="paths" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="waypoint" />
+              <option name="myItemId" value="pathstash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="waypoint" />
+              <option name="myItemId" value="pathstash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="waypoint_mobile_client" />
+              <option name="myItemId" value="pathstash_mobile_client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathstash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathstash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathstash_mobile_client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -258,15 +380,15 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="waypoint" />
+              <option name="myItemId" value="pathstash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="waypoint" />
+              <option name="myItemId" value="pathstash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="waypoint_mobile_client" />
+              <option name="myItemId" value="pathstash_mobile_client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -281,9 +403,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/projects/pathstash" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
@@ -364,6 +486,9 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -380,7 +505,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/waypoint_mobile_client/www/index.html">
+    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -388,35 +513,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/waypoint_mobile_client/www/js/mapList/mapList.module.js">
+    <entry file="file://$USER_HOME$/projects/pathstash/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.10010882">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/waypoint_mobile_client/www/js/core/core.module.js">
+    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/map/map.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.087051146">
+        <state vertical-scroll-proportion="-0.76666665">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/map/map.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/map/map.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/core/core.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/waypoint_mobile_client/www/js/core/core.config.js">
+    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/app.module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06964091">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-          <folding>
-            <element signature="e#39#78#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/waypoint_mobile_client/www/js/app.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1523395">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -424,39 +565,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/waypoint_mobile_client/www/index.html">
+    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8651685">
-          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+        <state vertical-scroll-proportion="-15.066667">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/waypoint_mobile_client/www/js/mapList/mapList.config.js">
+    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/map/map.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42546245">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/core/core.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
           <folding>
             <element signature="e#39#78#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/waypoint_mobile_client/www/js/mapList/mapList.html">
+    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/paths/paths.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/paths/paths.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/paths/paths.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.3">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/waypoint_mobile_client/www/js/mapList/mapList.controller.js">
+    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/paths/paths.module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25027204">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

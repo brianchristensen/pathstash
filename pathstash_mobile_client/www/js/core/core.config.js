@@ -6,10 +6,10 @@
 (function () {
     'use strict';
 
-    var core = angular.module('waypoint.core');
+    var core = angular.module('pathstash.core');
 
     core.config(function($stateProvider, $urlRouterProvider) {
-        $urlRouterProvider.otherwise('/mapList');
+        $urlRouterProvider.otherwise('/paths');
     });
 
     core.run(function($ionicPlatform) {
