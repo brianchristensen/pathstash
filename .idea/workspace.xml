@@ -37,18 +37,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="map.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/map/map.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#39#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.module.js" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/app.module.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -61,28 +49,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paths.module.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/paths/paths.module.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="paths.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/paths/paths.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.3">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="paths.controller.js" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/paths/paths.controller.js">
+      <file leaf-file-name="paths.config.js" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/paths/paths.config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.15016322">
               <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
@@ -93,48 +61,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paths.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/paths/paths.config.js">
+      <file leaf-file-name="paths.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/paths/paths.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#39#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="core.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/core/core.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-              <folding>
-                <element signature="e#39#78#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="core.module.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/core/core.module.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            <state vertical-scroll-proportion="-2.3">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map.controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/map/map.controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
-              <folding>
-                <element signature="e#0#39#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -190,7 +122,7 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
+    <option name="x" value="1910" />
     <option name="y" value="14" />
     <option name="width" value="1294" />
     <option name="height" value="1076" />
@@ -465,8 +397,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="14" width="1294" height="1076" extended-state="4" />
-    <editor active="false" />
+    <frame x="1910" y="14" width="1294" height="1076" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27080062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -556,24 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.066667">
-          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/map/map.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/core/core.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -581,6 +495,24 @@
           <folding>
             <element signature="e#39#78#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/paths/paths.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="70" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/paths/paths.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -602,25 +534,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/paths/paths.html">
+    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/map/map.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.3">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/paths/paths.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.25027204">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/paths/paths.controller.js">
+    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.066667">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/paths/paths.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15016322">
           <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />

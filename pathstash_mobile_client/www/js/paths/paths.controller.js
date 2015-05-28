@@ -7,7 +7,7 @@
     var paths = angular.module('pathstash.paths');
 
     paths.controller('pathsController', ['$scope', function ($scope) {
-        $scope.title = "This is a test controller title (maplist)";
+        $scope.title = "This is a test controller title (fuck off will)";
     }]);
 
 })();
