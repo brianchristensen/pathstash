@@ -1,4 +1,4 @@
-# waypost
-Share routes on a world map with other users.  
-Set up waypoints and messages. 
-Users can view preset waypoint maps and share their locations with other users on the same map.
+# Waypost
+Directions for each other.
+Share routes and way-points on a world map with other users.  
+Set up messages and hints along the way.
