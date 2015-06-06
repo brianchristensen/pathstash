@@ -4,9 +4,9 @@
 (function () {
     'use strict';
 
-    var paths = angular.module('pathstash.paths');
+    var mapList = angular.module('waypost.mapList');
 
-    paths.controller('pathsController', ['$scope', function ($scope) {
+    mapList.controller('mapListController', ['$scope', function ($scope) {
         $scope.title = "This is a test controller title (fuck off will)";
     }]);
 

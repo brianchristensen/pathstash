@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="$USER_HOME$/projects/pathstash" vcs="Git" />
-    <mapping directory="$USER_HOME$/projects/waypoint" vcs="" />
+    <mapping directory="$USER_HOME$/projects/waypost" vcs="Git" />
   </component>
 </project>

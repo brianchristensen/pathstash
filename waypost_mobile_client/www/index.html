@@ -26,20 +26,27 @@
         <script src="js/core/core.config.js"></script>
 
         <!-- Map list module -->
-        <script src="js/paths/paths.module.js"></script>
-        <script src="js/paths/paths.controller.js"></script>
-        <script src="js/paths/paths.config.js"></script>
+        <script src="js/mapList/mapList.module.js"></script>
+        <script src="js/mapList/mapList.controller.js"></script>
+        <script src="js/mapList/mapList.config.js"></script>
+
+        <!-- Map module -->
+        <script src="js/map/map.module.js"></script>
+        <script src="js/map/map.controller.js"></script>
+        <script src="js/map/map.config.js"></script>
 
     </head>
-    <body ng-app="pathstash">
-        <ion-nav-bar></ion-nav-bar>
-        <ion-nav-view></ion-nav-view>
+    <body ng-app="waypost">
+        <ion-nav-bar class="bar-positive"></ion-nav-bar>
+
         <ion-tabs class="tabs-positive tabs-icon-only">
 
-            <ion-tab title="Paths" icon-on="ion-ios-filing" icon-off="ion-ios-filing-outline">
+            <ion-tab title="Search Maps" href="/mapList" icon-on="ion-android-search" icon-off="ion-android-search">
+                <ion-nav-view name="map-list-default"></ion-nav-view>
             </ion-tab>
 
-            <ion-tab title="Map" icon-on="ion-ios-clock" icon-off="ion-ios-clock-outline">
+            <ion-tab title="Map" href="/map" icon-on="ion-android-compass" icon-off="ion-android-compass">
+                <ion-nav-view name="map-default"></ion-nav-view>
             </ion-tab>
         </ion-tabs>
     </body>

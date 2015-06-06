@@ -3955,8 +3955,8 @@ function stateContext(el) {
  * Also middle-clicking, right-clicking, and ctrl-clicking on the link will be 
  * handled natively by the browser.
  *
- * You can also use relative state paths within ui-sref, just like the relative 
- * paths passed to `$state.go()`. You just need to be aware that the path is relative
+ * You can also use relative state mapList within ui-sref, just like the relative
+ * mapList passed to `$state.go()`. You just need to be aware that the path is relative
  * to the state that the link lives in, in other words the state that loaded the 
  * template containing the link.
  *

@@ -13950,7 +13950,7 @@ function Browser(window, document, $log, $sniffer) {
             name = safeDecodeURIComponent(cookie.substring(0, index));
             // the first value that is seen for a cookie is the most
             // specific one.  values for the same cookie name that
-            // follow are for less specific paths.
+            // follow are for less specific mapList.
             if (lastCookies[name] === undefined) {
               lastCookies[name] = safeDecodeURIComponent(cookie.substring(index + 1));
             }
@@ -19412,7 +19412,7 @@ function LocationHashbangUrl(appBase, hashPrefix) {
      */
     function removeWindowsDriveName(path, url, base) {
       /*
-      Matches paths for file protocol on windows,
+      Matches mapList for file protocol on windows,
       such as /C:/foo/bar, and captures only /foo/bar.
       */
       var windowsFilePathExp = /^\/[A-Z]:(\/.*)/;
@@ -19871,7 +19871,7 @@ function locationGetterSetter(property, preprocess) {
  * @ngdoc provider
  * @name $locationProvider
  * @description
- * Use the `$locationProvider` to configure how the application deep linking paths are stored.
+ * Use the `$locationProvider` to configure how the application deep linking mapList are stored.
  */
 function $LocationProvider() {
   var hashPrefix = '',
@@ -19905,7 +19905,7 @@ function $LocationProvider() {
    *   If object, sets `enabled`, `requireBase` and `rewriteLinks` to respective values. Supported
    *   properties:
    *   - **enabled** – `{boolean}` – (default: false) If true, will rely on `history.pushState` to
-   *     change urls where supported. Will fall back to hash-prefixed paths in browsers that do not
+   *     change urls where supported. Will fall back to hash-prefixed mapList in browsers that do not
    *     support `pushState`.
    *   - **requireBase** - `{boolean}` - (default: `true`) When html5Mode is enabled, specifies
    *     whether or not a <base> tag is required to be present. If `enabled` and `requireBase` are
@@ -30124,7 +30124,7 @@ forEach(
         restrict: 'A',
         compile: function($element, attr) {
           // We expose the powerful $event object on the scope that provides access to the Window,
-          // etc. that isn't protected by the fast paths in $parse.  We explicitly request better
+          // etc. that isn't protected by the fast mapList in $parse.  We explicitly request better
           // checks at the cost of speed since event handler expressions are not executed as
           // frequently as regular change detection.
           var fn = $parse(attr[directiveName], /* interceptorFn */ null, /* expensiveChecks */ true);
@@ -41626,8 +41626,8 @@ function stateContext(el) {
  * Also middle-clicking, right-clicking, and ctrl-clicking on the link will be 
  * handled natively by the browser.
  *
- * You can also use relative state paths within ui-sref, just like the relative 
- * paths passed to `$state.go()`. You just need to be aware that the path is relative
+ * You can also use relative state mapList within ui-sref, just like the relative
+ * mapList passed to `$state.go()`. You just need to be aware that the path is relative
  * to the state that the link lives in, in other words the state that loaded the 
  * template containing the link.
  *

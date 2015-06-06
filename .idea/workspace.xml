@@ -2,11 +2,143 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73a2c3f2-9f88-4cfe-acd5-7cddbca155de" name="Default" comment="">
-      <change type="MOVED" beforePath="$USER_HOME$/projects/waypoint/.idea/waypoint.iml" afterPath="$USER_HOME$/projects/pathstash/.idea/pathstash.iml" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/projects/pathstash/.idea/.name" afterPath="$USER_HOME$/projects/pathstash/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/projects/pathstash/README.md" afterPath="$USER_HOME$/projects/pathstash/README.md" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/index.html" afterPath="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/index.html" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/projects/pathstash/.idea/workspace.xml" afterPath="$USER_HOME$/projects/pathstash/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/ios/splash/Default-568h@2x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/ios/splash/Default-667h.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/ios/splash/Default-736h.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/ios/splash/Default-Landscape-736h.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/ios/splash/Default-Landscape@2x~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/ios/splash/Default-Landscape~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/ios/splash/Default-Portrait@2x~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/ios/splash/Default-Portrait~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/ios/splash/Default@2x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/ios/splash/Default~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/hooks/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/android/icon/drawable-hdpi-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/android/splash/drawable-land-hdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/android/splash/drawable-land-ldpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/android/splash/drawable-land-mdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/android/splash/drawable-land-xhdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/android/splash/drawable-land-xxhdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/android/splash/drawable-land-xxxhdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/android/icon/drawable-ldpi-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/android/icon/drawable-mdpi-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/android/splash/drawable-port-hdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/android/splash/drawable-port-ldpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/android/splash/drawable-port-mdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/android/splash/drawable-port-xhdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/android/splash/drawable-port-xxhdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/android/splash/drawable-port-xxxhdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/android/icon/drawable-xhdpi-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/android/icon/drawable-xxhdpi-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/android/icon/drawable-xxxhdpi-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/ios/icon/icon-40.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/ios/icon/icon-40@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/ios/icon/icon-50.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/ios/icon/icon-50@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/ios/icon/icon-60.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/ios/icon/icon-60@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/ios/icon/icon-60@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/ios/icon/icon-72.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/ios/icon/icon-72@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/ios/icon/icon-76.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/ios/icon/icon-76@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/ios/icon/icon-small.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/ios/icon/icon-small@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/ios/icon/icon-small@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/ios/icon/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/ios/icon/icon@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/img/ionic.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/ionic.project" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/fonts/ionicons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/fonts/ionicons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/fonts/ionicons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/fonts/ionicons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/.idea/pathstash.iml" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/resources/splash.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/hooks/after_prepare/010_add_platform_class.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_action-sheet.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_animations.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_backdrop.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_badge.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_button-bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_button.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_checkbox.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_form.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/ionicons/_ionicons-font.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/ionicons/_ionicons-icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/ionicons/_ionicons-variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_items.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_loading.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_menu.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_modal.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_platform.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_popover.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_popup.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_progress.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_radio.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_range.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_refresher.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_reset.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_scaffolding.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_select.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_slide-box.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_spinner.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_tabs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_toggle.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_transitions.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_type.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_util.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/js/angular/angular-animate.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/js/angular/angular-animate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/js/angular/angular-resource.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/js/angular/angular-resource.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/js/angular/angular-sanitize.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/js/angular/angular-sanitize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/js/angular-ui/angular-ui-router.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/js/angular-ui/angular-ui-router.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/js/angular/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/js/angular/angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/js/app.module.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/js/core/core.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/js/core/core.module.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/js/ionic-angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/js/ionic-angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/scss/ionic.app.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/js/ionic.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/js/ionic.bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/css/ionic.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/js/ionic.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/css/ionic.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/js/ionic.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/ionic.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/scss/ionicons/ionicons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/js/map/map.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/js/map/map.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/js/map/map.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/js/map/map.module.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/js/mapList/mapList.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/js/mapList/mapList.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/js/paths/paths.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/js/paths/paths.module.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/projects/waypost/pathstash_mobile_client/www/lib/ionic/version.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/projects/waypost/README.md" afterPath="$USER_HOME$/projects/waypost/README.md" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/projects/waypost/.idea/modules.xml" afterPath="$USER_HOME$/projects/waypost/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/projects/waypost/.idea/vcs.xml" afterPath="$USER_HOME$/projects/waypost/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/projects/waypost/.idea/workspace.xml" afterPath="$USER_HOME$/projects/waypost/.idea/workspace.xml" />
     </list>
     <ignored path="waypoint.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,32 +160,20 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/index.html">
+        <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.066667">
-              <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+            <state vertical-scroll-proportion="-12.766666">
+              <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.module.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/app.module.js">
+      <file leaf-file-name="map.controller.js" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/map/map.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="paths.config.js" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/paths/paths.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15016322">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.25027204">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
               <folding>
                 <element signature="e#0#39#0" expanded="false" />
               </folding>
@@ -61,12 +181,92 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paths.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/paths/paths.html">
+      <file leaf-file-name="ionic.css" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/lib/ionic/css/ionic.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.3">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+            <state vertical-scroll-proportion="244.15625">
+              <caret line="7362" column="1" selection-start-line="7362" selection-start-column="1" selection-end-line="7362" selection-end-column="1" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/core/core.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="e#39#78#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/map/map.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/map/map.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.76666665">
+              <caret line="1" column="32" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mapList.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/mapList/mapList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.0666666">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.module.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/app.module.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mapList.controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/mapList/mapList.controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mapList.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/mapList/mapList.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="37" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,15 +302,34 @@
         <option value="$USER_HOME$/projects/waypoint/waypoint_mobile_client/www/js/map/map.html" />
         <option value="$USER_HOME$/projects/waypoint/waypoint_mobile_client/www/js/map/map.module.js" />
         <option value="$USER_HOME$/projects/waypoint/README.md" />
-        <option value="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/map/map.controller.js" />
         <option value="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/mapList/mapList.controller.js" />
         <option value="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/mapList/mapList.html" />
         <option value="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/map/map.html" />
         <option value="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/mapList/mapList.config.js" />
-        <option value="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/map/map.config.js" />
-        <option value="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/index.html" />
         <option value="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/paths/paths.config.js" />
         <option value="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/paths/paths.controller.js" />
+        <option value="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/mapList/paths.config.js" />
+        <option value="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/mapList/paths.controller.js" />
+        <option value="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/mapList/paths.html" />
+        <option value="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/mapList/paths.module.js" />
+        <option value="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/map/map.config.js" />
+        <option value="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/map/map.controller.js" />
+        <option value="$USER_HOME$/projects/pathstash/README.md" />
+        <option value="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/app.module.js" />
+        <option value="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/core/core.config.js" />
+        <option value="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/core/core.module.js" />
+        <option value="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/map/map.module.js" />
+        <option value="$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/index.html" />
+        <option value="$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/mapList/mapList.html" />
+        <option value="$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/map/map.html" />
+        <option value="$USER_HOME$/projects/waypost/waypost_mobile_client/bower.json" />
+        <option value="$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/mapList/mapList.config.js" />
+        <option value="$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/map/map.config.js" />
+        <option value="$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/core/waypost.tabs.html" />
+        <option value="$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/core/tabs.html" />
+        <option value="$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/core/core.config.js" />
+        <option value="$USER_HOME$/projects/waypost/waypost_mobile_client/www/index.html" />
+        <option value="$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/map/map.controller.js" />
       </list>
     </option>
   </component>
@@ -122,9 +341,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1910" />
+    <option name="x" value="-3" />
     <option name="y" value="14" />
-    <option name="width" value="1294" />
+    <option name="width" value="1638" />
     <option name="height" value="1076" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -166,6 +385,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -175,7 +395,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pathstash" />
+              <option name="myItemId" value="waypost" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -185,11 +405,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pathstash" />
+              <option name="myItemId" value="waypost" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pathstash_mobile_client" />
+              <option name="myItemId" value="waypost_mobile_client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -199,11 +419,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pathstash" />
+              <option name="myItemId" value="waypost" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pathstash_mobile_client" />
+              <option name="myItemId" value="waypost_mobile_client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -217,33 +437,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pathstash" />
+              <option name="myItemId" value="waypost" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pathstash_mobile_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pathstash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pathstash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pathstash_mobile_client" />
+              <option name="myItemId" value="waypost_mobile_client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -254,8 +452,30 @@
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="paths" />
+              <option name="myItemId" value="pathstash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="waypost" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="waypost_mobile_client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mapList" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -265,11 +485,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pathstash" />
+              <option name="myItemId" value="waypost" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pathstash_mobile_client" />
+              <option name="myItemId" value="waypost_mobile_client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -291,11 +511,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pathstash" />
+              <option name="myItemId" value="waypost" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pathstash_mobile_client" />
+              <option name="myItemId" value="waypost_mobile_client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -317,11 +537,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pathstash" />
+              <option name="myItemId" value="waypost" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pathstash_mobile_client" />
+              <option name="myItemId" value="waypost_mobile_client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathstash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="waypost" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="waypost_mobile_client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -331,12 +573,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/projects/pathstash" />
+    <property name="last_opened_file_path" value="$USER_HOME$/projects/waypost" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -397,10 +638,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1910" y="14" width="1294" height="1076" extended-state="4" />
+    <frame x="-3" y="14" width="1638" height="1076" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27080062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2144623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -418,6 +659,25 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912722" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2144623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912722" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
@@ -434,97 +694,27 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/core/core.config.js</url>
+          <line>8</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/index.html">
+    <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/projects/pathstash/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10010882">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/map/map.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.76666665">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/map/map.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/map/map.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/core/core.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/core/core.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-          <folding>
-            <element signature="e#39#78#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/paths/paths.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="70" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/paths/paths.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.3">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/paths/paths.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/app.module.js">
+    <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/app.module.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -534,28 +724,190 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/map/map.config.js">
+    <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/mapList/mapList.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25027204">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/index.html">
+    <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/mapList/mapList.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.066667">
-          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/projects/pathstash/pathstash_mobile_client/www/js/paths/paths.config.js">
+    <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15016322">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/waypost/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/map/map.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/scss/ionic.app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/mapList/mapList.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/core/core.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/mapList/mapList.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/app.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.025871767">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.37540805">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/map/map.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/lib/ionic/css/ionic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="244.15625">
+          <caret line="7362" column="1" selection-start-line="7362" selection-start-column="1" selection-end-line="7362" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/mapList/mapList.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/core/core.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#39#78#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.766666">
+          <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/mapList/mapList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0666666">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/map/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.76666665">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/waypost/waypost_mobile_client/www/js/map/map.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25027204">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
           </folding>

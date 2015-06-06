@@ -6,11 +6,13 @@
 (function () {
     'use strict';
 
-    var core = angular.module('pathstash.core');
+    var core = angular.module('waypost.core');
 
-    core.config(function($stateProvider, $urlRouterProvider) {
-        $urlRouterProvider.otherwise('/paths');
-    });
+    core.config(['$stateProvider', '$urlRouterProvider', '$ionicConfigProvider',
+        function($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
+            $ionicConfigProvider.tabs.position('bottom');
+            $urlRouterProvider.otherwise('/mapList');
+    }]);
 
     core.run(function($ionicPlatform) {
         $ionicPlatform.ready(function() {
