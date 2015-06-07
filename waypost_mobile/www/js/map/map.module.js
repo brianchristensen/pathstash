@@ -1,4 +1,4 @@
 /**
  * Created by brian on 6/7/15.
  */
-angular.module('map', ['map.controller']);
+angular.module('waypost.map', ['waypost.map.controller']);

@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73a2c3f2-9f88-4cfe-acd5-7cddbca155de" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/waypost_mobile/www/js/core/main.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/waypost_mobile/www/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/waypost_mobile/www/js/controllers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/waypost_mobile/www/templates/browse.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/waypost_mobile/www/templates/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/waypost_mobile/www/templates/playlist.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/waypost_mobile/www/templates/playlists.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/waypost_mobile/www/templates/search.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/waypost_mobile/www/templates/menu.html" afterPath="$PROJECT_DIR$/waypost_mobile/www/js/core/menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waypost_mobile/www/lib/ionic/js/angular/angular.js" afterPath="$PROJECT_DIR$/waypost_mobile/www/lib/ionic/js/angular/angular.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waypost_mobile/www/index.html" afterPath="$PROJECT_DIR$/waypost_mobile/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waypost_mobile/www/lib/ionic/js/ionic.bundle.js" afterPath="$PROJECT_DIR$/waypost_mobile/www/lib/ionic/js/ionic.bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/waypost.iml" afterPath="$PROJECT_DIR$/.idea/waypost.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waypost_mobile/www/js/core/main.js" afterPath="$PROJECT_DIR$/waypost_mobile/www/js/core/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waypost_mobile/www/js/map/map.controller.js" afterPath="$PROJECT_DIR$/waypost_mobile/www/js/map/map.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waypost_mobile/www/js/map/map.html" afterPath="$PROJECT_DIR$/waypost_mobile/www/js/map/map.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waypost_mobile/www/js/map/map.module.js" afterPath="$PROJECT_DIR$/waypost_mobile/www/js/map/map.module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waypost_mobile/www/js/mapList/mapList.controller.js" afterPath="$PROJECT_DIR$/waypost_mobile/www/js/mapList/mapList.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waypost_mobile/www/js/mapList/mapList.html" afterPath="$PROJECT_DIR$/waypost_mobile/www/js/mapList/mapList.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waypost_mobile/www/js/mapList/mapList.module.js" afterPath="$PROJECT_DIR$/waypost_mobile/www/js/mapList/mapList.module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waypost_mobile/www/js/core/menu.html" afterPath="$PROJECT_DIR$/waypost_mobile/www/js/core/menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waypost_mobile/www/css/style.css" afterPath="$PROJECT_DIR$/waypost_mobile/www/css/style.css" />
     </list>
     <ignored path="waypoint.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,42 +36,18 @@
         <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/core/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+              <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mapList.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/mapList/mapList.html">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/waypost_mobile/www/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.5333333">
-              <caret line="2" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mapList.controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/mapList/mapList.controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#38#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mapList.module.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/mapList/mapList.module.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#38#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -83,18 +55,8 @@
       <file leaf-file-name="menu.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/core/menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.233334">
-              <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/waypost_mobile/www/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6726659">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.366667">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -103,21 +65,9 @@
       <file leaf-file-name="map.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/map/map.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+            <state vertical-scroll-proportion="-0.76666665">
+              <caret line="1" column="34" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="34" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map.module.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/map/map.module.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#38#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -126,7 +76,29 @@
         <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/map/map.controller.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#38#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mapList.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/mapList/mapList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.3">
+              <caret line="3" column="51" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mapList.controller.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/mapList/mapList.controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.25027204">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding>
                 <element signature="e#0#38#0" expanded="false" />
               </folding>
@@ -150,8 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../waypoint/waypoint_mobile_client/www/js/core/core.config.js" />
-        <option value="$PROJECT_DIR$/../waypoint/waypoint_mobile_client/www/js/core/core.module.js" />
         <option value="$PROJECT_DIR$/../waypoint/waypoint_mobile_client/www/js/app.module.js" />
         <option value="$PROJECT_DIR$/../waypoint/waypoint_mobile_client/www/index.html" />
         <option value="$PROJECT_DIR$/../waypoint/waypoint_mobile_client/www/js/map/map.controller.js" />
@@ -187,20 +157,22 @@
         <option value="$PROJECT_DIR$/waypost_mobile_client/www/js/map/map.controller.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/waypost_mobile_client/www/index.html" />
-        <option value="$PROJECT_DIR$/waypost_mobile/www/js/mapList/mapList.html" />
         <option value="$PROJECT_DIR$/waypost_mobile/www/js/mapList/mapListController.js" />
         <option value="$PROJECT_DIR$/waypost_mobile/www/js/mapList/mapListModule.js" />
         <option value="$PROJECT_DIR$/waypost_mobile/www/templates/menu.html" />
-        <option value="$PROJECT_DIR$/waypost_mobile/www/js/mapList/mapList.module.js" />
         <option value="$PROJECT_DIR$/waypost_mobile/www/js/app.js" />
         <option value="$PROJECT_DIR$/waypost_mobile/www/lib/ionic/js/ionic.bundle.js" />
         <option value="$PROJECT_DIR$/waypost_mobile/www/js/map/map.html.js" />
-        <option value="$PROJECT_DIR$/waypost_mobile/www/js/map/map.module.js" />
-        <option value="$PROJECT_DIR$/waypost_mobile/www/js/map/map.controller.js" />
-        <option value="$PROJECT_DIR$/waypost_mobile/www/js/map/map.html" />
+        <option value="$PROJECT_DIR$/waypost_mobile/www/js/core/menu.html" />
         <option value="$PROJECT_DIR$/waypost_mobile/www/index.html" />
         <option value="$PROJECT_DIR$/waypost_mobile/www/js/core/main.js" />
-        <option value="$PROJECT_DIR$/waypost_mobile/www/js/core/menu.html" />
+        <option value="$PROJECT_DIR$/waypost_mobile/www/js/map/map.module.js" />
+        <option value="$PROJECT_DIR$/waypost_mobile/www/js/mapList/mapList.module.js" />
+        <option value="$PROJECT_DIR$/waypost_mobile/www/js/map/map.controller.js" />
+        <option value="$PROJECT_DIR$/waypost_mobile/www/js/map/map.html" />
+        <option value="$PROJECT_DIR$/waypost_mobile/www/css/style.css" />
+        <option value="$PROJECT_DIR$/waypost_mobile/www/js/mapList/mapList.html" />
+        <option value="$PROJECT_DIR$/waypost_mobile/www/js/mapList/mapList.controller.js" />
       </list>
     </option>
   </component>
@@ -325,6 +297,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathstash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="waypost" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="waypost_mobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -382,6 +376,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathstash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="waypost" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="waypost_mobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -541,20 +557,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/mapList/mapList.module.js">
+    <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/map/map.module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.025027204">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
           <folding>
             <element signature="e#0#38#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/mapList/mapList.controller.js">
+    <entry file="file://$PROJECT_DIR$/waypost_mobile/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.03487064">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/core/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waypost_mobile/www/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/core/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.366667">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/map/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.76666665">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/mapList/mapList.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.025027204">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
           <folding>
             <element signature="e#0#38#0" expanded="false" />
           </folding>
@@ -564,17 +620,7 @@
     <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/map/map.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/map/map.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding>
             <element signature="e#0#38#0" expanded="false" />
           </folding>
@@ -583,41 +629,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/mapList/mapList.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5333333">
-          <caret line="2" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state vertical-scroll-proportion="-2.3">
+          <caret line="3" column="51" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/map/map.html">
+    <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/mapList/mapList.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/core/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/core/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.233334">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/waypost_mobile/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6726659">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.25027204">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
