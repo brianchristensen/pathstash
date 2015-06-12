@@ -1,5 +1,13 @@
 /* Set map container and map to 100% height */
 .mapContent > div.scroll, #waypostMap {
-    height:100%;
+    height: 100%;
     width: 100%;
+}
+
+.leaflet-control-attribution {
+    margin-bottom: 49px !important;
+}
+
+.editorControls .leaflet-container {
+    cursor: crosshair !important;
 }

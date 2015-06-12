@@ -3,7 +3,7 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-angular.module('waypost', ['ionic', 'waypost.mapList', 'waypost.map'])
+angular.module('waypost', ['ionic', 'ngCordova', 'waypost.mapList', 'waypost.editor', 'waypost.map'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -36,6 +36,16 @@ angular.module('waypost', ['ionic', 'waypost.mapList', 'waypost.map'])
                 controller: 'mapListCtrl'
             }
         }
+    })
+
+    .state('waypost.editor', {
+      url: "/editor",
+      views: {
+          'menuContent': {
+              templateUrl: "js/editor/editor.html",
+              controller: 'editorCtrl'
+          }
+      }
     })
 
     .state('waypost.map', {
