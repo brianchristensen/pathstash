@@ -2,6 +2,7 @@
 .mapContent > div.scroll, #waypostMap {
     height: 100%;
     width: 100%;
+    height: calc(100% + 1px);
 }
 
 .leaflet-control-attribution {

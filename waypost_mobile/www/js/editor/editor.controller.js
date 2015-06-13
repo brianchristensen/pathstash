@@ -1,32 +1,42 @@
 /**
  * Created by brian on 6/7/15.
  */
-var editor = angular.module('waypost.editor.controller', []);
+var editor = angular.module('waypost.editor.controller', ['waypost.core.utility', 'waypost.core.modal']);
 
-editor.controller('editorCtrl', function($scope) {
+editor.controller('editorCtrl', ['$scope', '$ionicModal', 'core.utility', 'core.modal',
+function($scope, $ionicModal, utility, modal) {
     // initialize map
     var map = new L.Map('waypostMap');
+    if (map.tap) {
+        map.tap.disable(); // allow quick-tap control on mobile
+    }
+
+    // create the mapbox tile layer with correct attribution
+    var mapBoxToken = 'pk.eyJ1IjoidXNlcmxvZ2ljbWFuIiwiYSI6ImE2OGE0NDAxNTgwYjFmYjJiZGIwNDk3YTYxMGEzNTQxIn0.GKy2HENjVpvTHtujUYVFaQ';
+    var mapboxTiles = L.tileLayer('https://{s}.tiles.mapbox.com/v4/userlogicman.0bf0f043/{z}/{x}/{y}.png?access_token=' + mapBoxToken, {
+        attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'
+    });
 
     // create the OSM tile layer with correct attribution
-    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-    var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
-    var osm = new L.TileLayer(osmUrl, {minZoom: 2, maxZoom: 17, attribution: osmAttrib});
+    //var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    //var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
+    //var osm = new L.TileLayer(osmUrl, {minZoom: 2, maxZoom: 17, attribution: osmAttrib});
 
-    // start the map in South-East England
+    // start the map in Long Beach, CA
     map.setView(new L.LatLng(33.7683, -118.1956), 12);
-    map.addLayer(osm);
+    map.addLayer(mapboxTiles);
 
     // initialize editor modes
     $scope.pointEditStack = [];
     $scope.polygonEditStack = [];
 
     $scope.editorModes = {
-        move: 0,
+        drag: 0,
         point: 1,
         polygon: 2
     };
 
-    $scope.activeMode = $scope.editorModes.move;
+    $scope.activeMode = $scope.editorModes.drag;
 
     // actions
     $scope.saveMap = function() {
@@ -45,6 +55,8 @@ editor.controller('editorCtrl', function($scope) {
             case $scope.editorModes.polygon:
                 if ($scope.polygonEditStack.length > 0) {
                     lastEdit = $scope.polygonEditStack.pop();
+                    currentPolygon = null;
+                    currentPolygonNodes = [];
                 }
                 break;
             default:
@@ -59,8 +71,13 @@ editor.controller('editorCtrl', function($scope) {
     // switch edit handler
     $scope.changeMode = function(newMode) {
         switch(newMode) {
-            case $scope.editorModes.move:
-                $scope.activeMode = $scope.editorModes.move;
+            case $scope.editorModes.drag:
+                // if switching back to drag, clear out the last polygon edits
+                if (currentPolygon) {
+                    currentPolygon = null;
+                    currentPolygonNodes = []
+                }
+                $scope.activeMode = $scope.editorModes.drag;
                 map.dragging.enable();
                 map.removeEventListener('click', handlePointEdit);
                 map.removeEventListener('click', handlePolygonEdit);
@@ -80,39 +97,78 @@ editor.controller('editorCtrl', function($scope) {
         }
     };
 
-    // private handlers
+    // handle point edits
+    var currentPoint;
+    $scope.popupTitle;
+    $scope.popupText;
     function handlePointEdit (event) {
-        var geojsonPoint = {
-            "type": "Feature",
-            "properties": {
-                "name": "Waypoint"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [event.latlng.lat,  event.latlng.lng]
-            }
-        };
+        currentPoint = L.marker([event.latlng.lat, event.latlng.lng]);
+        $scope.popupTitle = '';
+        $scope.popupText = '';
 
-        var geojsonMarkerOptions = {
-            radius: 8,
-            fillColor: "#ff7800",
-            color: "#000",
-            weight: 1,
-            opacity: 1,
-            fillOpacity: 0.8
-        };
-
-        var newPoint = L.geoJson(geojsonPoint, {
-            pointToLayer: function (feature, latlng) {
-                return L.circleMarker(latlng, geojsonMarkerOptions);
-            }
-        });
-
-        newPoint.addTo(map);
-        $scope.pointEditStack.push(newPoint);
+        modal.init('js/editor/point.popupData.html', $scope)
+            .then(function(modal) {
+                modal.show();
+            });
     }
 
+    $scope.savePointEdit_popup = function() {
+        $scope.closeModal();
+        var point = currentPoint.addTo(map);
+        point.bindPopup('<b>' + $scope.popupTitle + '</b><br/>' +
+                        '<p>' + $scope.popupText + '</p>');
+        $scope.pointEditStack.push(currentPoint);
+    }
+
+    $scope.savePointEdit_noPopup = function() {
+        $scope.closeModal();
+        currentPoint.addTo(map);
+        $scope.pointEditStack.push(currentPoint);
+    }
+
+    // handle polygon edits
+    var currentPolygon;
+    var currentPolygonNodes = [];
     function handlePolygonEdit (event) {
-        var test = event;
+        if (!currentPolygon) {
+            currentPolygonNodes.push([event.latlng.lat, event.latlng.lng]);
+            currentPolygon = L.polygon(currentPolygonNodes);
+            currentPolygon.addTo(map);
+            $scope.polygonEditStack.push(currentPolygon);
+        } else {
+            map.removeLayer(currentPolygon);
+            currentPolygonNodes.push([event.latlng.lat, event.latlng.lng]);
+            currentPolygon = L.polygon(currentPolygonNodes);
+            currentPolygon.addTo(map);
+            $scope.polygonEditStack.pop();
+            $scope.polygonEditStack.push(currentPolygon);
+        }
     }
-});
+
+    // add data to point edits
+    $ionicModal.fromTemplateUrl('js/editor/point.popupData.html', {
+        scope: $scope,
+        animation: 'slide-in-up'
+    }).then(function(modal) {
+        $scope.modal = modal;
+    });
+
+    $scope.openModal = function() {
+        $scope.modal.show();
+    };
+    $scope.closeModal = function() {
+        $scope.modal.hide();
+    };
+    //Cleanup the modal when we're done with it!
+    $scope.$on('$destroy', function() {
+        $scope.modal.remove();
+    });
+    // Execute action on hide modal
+    $scope.$on('modal.hidden', function() {
+        // Execute action
+    });
+    // Execute action on remove modal
+    $scope.$on('modal.removed', function() {
+        // Execute action
+    });
+}]);

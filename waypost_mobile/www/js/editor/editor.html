@@ -1,19 +1,19 @@
 <ion-view view-title="Editor">
-    <ion-content class="mapContent" ng-class="{'editorControls': activeMode !== editorModes.move }">
+    <ion-content class="mapContent" ng-class="{'editorControls': activeMode !== editorModes.drag }">
         <div id="waypostMap"></div>
-        <div class="tabs tabs-icon-only editorControls" ng-show="activeMode === editorModes.move">
-            <a class="tab-item" ng-click="changeMode(editorModes.polygon);">
-                <i class="icon ion-android-checkbox-outline-blank"></i>
-            </a>
+        <div class="tabs tabs-icon-only editorControls" ng-show="activeMode === editorModes.drag">
             <a class="tab-item" ng-click="changeMode(editorModes.point);">
                 <i class="icon ion-android-pin"></i>
+            </a>
+            <a class="tab-item" ng-click="changeMode(editorModes.polygon);">
+                <i class="icon ion-android-checkbox-outline-blank"></i>
             </a>
             <a class="tab-item" ng-click="saveMap();">
                 <i class="icon ion-android-done"></i>
             </a>
         </div>
-        <div class="tabs tabs-icon-only editorControls" ng-show="activeMode !== editorModes.move">
-            <a class="tab-item" ng-click="changeMode(editorModes.move);">
+        <div class="tabs tabs-icon-only editorControls" ng-show="activeMode !== editorModes.drag">
+            <a class="tab-item" ng-click="changeMode(editorModes.drag);">
                 <i class="icon ion-android-arrow-back"></i>
             </a>
             <a class="tab-item" ng-click="undoLastEdit();">
