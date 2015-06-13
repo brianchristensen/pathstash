@@ -1,7 +1,11 @@
 <ion-view view-title="Map List">
     <ion-content>
+        <label class="item item-input">
+            <i class="icon ion-search placeholder-icon"></i>
+            <input type="search" placeholder="Search Maps" ng-model="searchText">
+        </label>
         <ion-list>
-            <ion-item ng-repeat="map in waypostMaps">
+            <ion-item ng-repeat="map in waypostMaps | filter:searchText">
                 {{ map }}
             </ion-item>
         </ion-list>

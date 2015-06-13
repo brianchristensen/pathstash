@@ -1,9 +1,12 @@
 /**
  * Created by brian on 6/7/15.
  */
-angular.module('waypost.mapList.controller', [])
+var mapList = angular.module('waypost.mapList.controller', [])
 
-.controller('mapListCtrl', function($scope, $stateParams) {
+mapList.controller('mapListCtrl', function($scope, $stateParams) {
+
+    $scope.searchText = '';
+
     $scope.waypostMaps = [
         'Long Beach Hydrobikes',
         'Naples Kayaks',

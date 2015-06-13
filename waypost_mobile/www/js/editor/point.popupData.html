@@ -1,20 +1,24 @@
 <ion-modal-view>
     <ion-header-bar>
-        <h1 class="title">Marker Information</h1>
+        <h1 class="title">Waypoint Information</h1>
     </ion-header-bar>
     <ion-content>
-        <label>Popup Title</label>
-        <input type="text" ng-model="popupTitle"/>
-        <label>Popup Text</label>
-        <textarea ng-model="popupText"></textarea>
-        <ion-footer-bar align-title="left" class="bar-light">
-            <div class="buttons" ng-click="savePointEdit_popup()">
-                <button class="button">OK</button>
-            </div>
-            <h1 class="title">Add data to marker</h1>
-            <div class="buttons" ng-click="savePointEdit_noPopup()">
-                <button class="button">Skip</button>
-            </div>
-        </ion-footer-bar>
+        <label class="item item-input">
+            <span class="input-label">Title</span>
+            <input type="text" ng-model="modal.popupTitle">
+        </label>
+        <label class="item item-input">
+            <span class="input-label">Text</span>
+            <input type="text" ng-model="modal.popupText">
+        </label>
     </ion-content>
+    <ion-footer-bar align-title="left" class="bar-light">
+        <div class="buttons" ng-click="savePointEdit_popup()">
+            <button class="button">OK</button>
+        </div>
+        <h1 class="title">Add pop-up to waypoint</h1>
+        <div class="buttons" ng-click="savePointEdit_noPopup()">
+            <button class="button">Skip</button>
+        </div>
+    </ion-footer-bar>
 </ion-modal-view>

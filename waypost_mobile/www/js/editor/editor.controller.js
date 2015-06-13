@@ -6,7 +6,7 @@ var editor = angular.module('waypost.editor.controller', ['waypost.core.utility'
 editor.controller('editorCtrl', ['$scope', '$ionicModal', 'core.utility', 'core.modal',
 function($scope, $ionicModal, utility, modal) {
     // initialize map
-    var map = new L.Map('waypostMap');
+    var map = new L.Map('waypostMap', { zoomControl:false });
     if (map.tap) {
         map.tap.disable(); // allow quick-tap control on mobile
     }
@@ -31,12 +31,13 @@ function($scope, $ionicModal, utility, modal) {
     $scope.polygonEditStack = [];
 
     $scope.editorModes = {
-        drag: 0,
-        point: 1,
-        polygon: 2
+        default: 0,
+        drag: 1,
+        point: 2,
+        polygon: 3
     };
 
-    $scope.activeMode = $scope.editorModes.drag;
+    $scope.activeMode = $scope.editorModes.default;
 
     // actions
     $scope.saveMap = function() {
@@ -71,16 +72,21 @@ function($scope, $ionicModal, utility, modal) {
     // switch edit handler
     $scope.changeMode = function(newMode) {
         switch(newMode) {
-            case $scope.editorModes.drag:
-                // if switching back to drag, clear out the last polygon edits
+            case $scope.editorModes.default:
+                $scope.activeMode = $scope.editorModes.default;
+                map.dragging.disable();
+                // if switching back to default, clear out the last polygon edits
                 if (currentPolygon) {
                     currentPolygon = null;
                     currentPolygonNodes = []
                 }
-                $scope.activeMode = $scope.editorModes.drag;
-                map.dragging.enable();
+                // remove editor event listeners
                 map.removeEventListener('click', handlePointEdit);
                 map.removeEventListener('click', handlePolygonEdit);
+                break;
+            case $scope.editorModes.drag:
+                $scope.activeMode = $scope.editorModes.drag;
+                map.dragging.enable();
                 break;
             case $scope.editorModes.point:
                 $scope.activeMode = $scope.editorModes.point;
@@ -99,24 +105,21 @@ function($scope, $ionicModal, utility, modal) {
 
     // handle point edits
     var currentPoint;
-    $scope.popupTitle;
-    $scope.popupText;
     function handlePointEdit (event) {
         currentPoint = L.marker([event.latlng.lat, event.latlng.lng]);
-        $scope.popupTitle = '';
-        $scope.popupText = '';
 
         modal.init('js/editor/point.popupData.html', $scope)
             .then(function(modal) {
+                $scope.modal.popupTitle = '';
+                $scope.modal.popupText = '';
                 modal.show();
             });
     }
 
     $scope.savePointEdit_popup = function() {
         $scope.closeModal();
-        var point = currentPoint.addTo(map);
-        point.bindPopup('<b>' + $scope.popupTitle + '</b><br/>' +
-                        '<p>' + $scope.popupText + '</p>');
+        currentPoint.bindPopup('<b>' + $scope.modal.popupTitle + '</b><br/>' +
+                                            $scope.modal.popupText).addTo(map);
         $scope.pointEditStack.push(currentPoint);
     }
 
@@ -133,13 +136,13 @@ function($scope, $ionicModal, utility, modal) {
         if (!currentPolygon) {
             currentPolygonNodes.push([event.latlng.lat, event.latlng.lng]);
             currentPolygon = L.polygon(currentPolygonNodes);
-            currentPolygon.addTo(map);
+            currentPolygon.addTo(map).bringToBack();
             $scope.polygonEditStack.push(currentPolygon);
         } else {
             map.removeLayer(currentPolygon);
             currentPolygonNodes.push([event.latlng.lat, event.latlng.lng]);
             currentPolygon = L.polygon(currentPolygonNodes);
-            currentPolygon.addTo(map);
+            currentPolygon.addTo(map).bringToBack();
             $scope.polygonEditStack.pop();
             $scope.polygonEditStack.push(currentPolygon);
         }

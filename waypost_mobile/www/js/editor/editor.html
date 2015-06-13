@@ -1,7 +1,13 @@
 <ion-view view-title="Editor">
-    <ion-content class="mapContent" ng-class="{'editorControls': activeMode !== editorModes.drag }">
+    <ion-content class="mapContent" ng-class="{'editorControls': activeMode !== editorModes.drag &&
+                                                                 activeMode !== editorModes.default,
+                                               'dragControls': activeMode === editorModes.drag,
+                                               'defaultControls': activeModes === editorModes.default }">
         <div id="waypostMap"></div>
-        <div class="tabs tabs-icon-only editorControls" ng-show="activeMode === editorModes.drag">
+        <div class="tabs tabs-icon-only editorControls" ng-show="activeMode === editorModes.default">
+            <a class="tab-item" ng-click="changeMode(editorModes.drag);">
+                <i class="icon ion-arrow-move"></i>
+            </a>
             <a class="tab-item" ng-click="changeMode(editorModes.point);">
                 <i class="icon ion-android-pin"></i>
             </a>
@@ -12,8 +18,17 @@
                 <i class="icon ion-android-done"></i>
             </a>
         </div>
-        <div class="tabs tabs-icon-only editorControls" ng-show="activeMode !== editorModes.drag">
-            <a class="tab-item" ng-click="changeMode(editorModes.drag);">
+        <div class="tabs tabs-icon-only editorControls" ng-show="activeMode === editorModes.drag">
+            <a class="tab-item" ng-click="changeMode(editorModes.default);">
+                <i class="icon ion-android-arrow-back"></i>
+            </a>
+            <a class="tab-item" ng-click="saveMap();">
+                <i class="icon ion-android-done"></i>
+            </a>
+        </div>
+        <div class="tabs tabs-icon-only editorControls" ng-show="activeMode !== editorModes.drag &&
+                                                                 activeMode !== editorModes.default">
+            <a class="tab-item" ng-click="changeMode(editorModes.default);">
                 <i class="icon ion-android-arrow-back"></i>
             </a>
             <a class="tab-item" ng-click="undoLastEdit();">

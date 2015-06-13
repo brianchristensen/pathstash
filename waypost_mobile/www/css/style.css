@@ -12,3 +12,11 @@
 .editorControls .leaflet-container {
     cursor: crosshair !important;
 }
+
+.dragControls .leaflet-container {
+    cursor: move !important;
+}
+
+.defaultControls .leaflet-container {
+    cursor: default !important;
+}
