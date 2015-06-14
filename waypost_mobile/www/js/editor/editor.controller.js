@@ -10,7 +10,8 @@ function($scope, $ionicModal, utility, modal) {
     if (map.tap) {
         map.tap.disable(); // allow quick-tap control on mobile
     }
-
+    map.dragging.disable();
+    
     // create the mapbox tile layer with correct attribution
     var mapBoxToken = 'pk.eyJ1IjoidXNlcmxvZ2ljbWFuIiwiYSI6ImE2OGE0NDAxNTgwYjFmYjJiZGIwNDk3YTYxMGEzNTQxIn0.GKy2HENjVpvTHtujUYVFaQ';
     var mapboxTiles = L.tileLayer('https://{s}.tiles.mapbox.com/v4/userlogicman.0bf0f043/{z}/{x}/{y}.png?access_token=' + mapBoxToken, {

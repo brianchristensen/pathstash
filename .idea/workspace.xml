@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="73a2c3f2-9f88-4cfe-acd5-7cddbca155de" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waypost_mobile/www/js/editor/editor.controller.js" afterPath="$PROJECT_DIR$/waypost_mobile/www/js/editor/editor.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waypost_mobile/www/js/editor/editor.html" afterPath="$PROJECT_DIR$/waypost_mobile/www/js/editor/editor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waypost_mobile/www/js/mapList/mapList.controller.js" afterPath="$PROJECT_DIR$/waypost_mobile/www/js/mapList/mapList.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waypost_mobile/www/js/mapList/mapList.html" afterPath="$PROJECT_DIR$/waypost_mobile/www/js/mapList/mapList.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waypost_mobile/www/js/editor/point.popupData.html" afterPath="$PROJECT_DIR$/waypost_mobile/www/js/editor/point.popupData.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waypost_mobile/www/css/style.css" afterPath="$PROJECT_DIR$/waypost_mobile/www/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="waypoint.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="editor.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="editor.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/editor/editor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10562572">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state vertical-scroll-proportion="-19.166666">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding>
                 <marker date="1434232978369" expanded="true" signature="77:431" placeholder="{...}" />
               </folding>
@@ -41,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editor.controller.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="editor.controller.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/editor/editor.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.28079912">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
               <folding>
                 <element signature="e#0#38#0" expanded="false" />
               </folding>
@@ -181,9 +175,9 @@
         <option value="$PROJECT_DIR$/waypost_mobile/www/js/mapList/mapList.controller.js" />
         <option value="$PROJECT_DIR$/waypost_mobile/www/js/mapList/mapList.html" />
         <option value="$PROJECT_DIR$/waypost_mobile/www/js/editor/point.popupData.html" />
-        <option value="$PROJECT_DIR$/waypost_mobile/www/js/editor/editor.controller.js" />
         <option value="$PROJECT_DIR$/waypost_mobile/www/css/style.css" />
         <option value="$PROJECT_DIR$/waypost_mobile/www/js/editor/editor.html" />
+        <option value="$PROJECT_DIR$/waypost_mobile/www/js/editor/editor.controller.js" />
       </list>
     </option>
   </component>
@@ -195,7 +189,7 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
+    <option name="x" value="1910" />
     <option name="y" value="19" />
     <option name="width" value="1711" />
     <option name="height" value="1058" />
@@ -433,7 +427,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="19" width="1711" height="1058" extended-state="0" />
+    <frame x="1910" y="19" width="1711" height="1058" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29686576" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -902,22 +896,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/editor/editor.controller.js">
+    <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/editor/editor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+        <state vertical-scroll-proportion="-19.166666">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
-            <element signature="e#0#38#0" expanded="false" />
+            <marker date="1434232978369" expanded="true" signature="77:431" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/editor/editor.html">
+    <entry file="file://$PROJECT_DIR$/waypost_mobile/www/js/editor/editor.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10562572">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.28079912">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
           <folding>
-            <marker date="1434232978369" expanded="true" signature="77:431" placeholder="{...}" />
+            <element signature="e#0#38#0" expanded="false" />
           </folding>
         </state>
       </provider>
